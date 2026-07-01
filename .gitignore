@@ -216,3 +216,15 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# === Custom Additions for Deep Learning & Mac ===
+
+# macOS System Files (Crucial for your MacBook Air)
+.DS_Store
+
+# Deep Learning Model Weights (Prevents pushing huge files to GitHub)
+saved_models/
+*.pth
+
+# Output Graphics
+*.png
